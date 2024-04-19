@@ -14,12 +14,8 @@ const navigation = [
   },
 
   {
-    name: "Deploy",
-    href: "/deploy",
-  },
-  {
     name: "GitHub",
-    href: "https://github.com/chronark/envshare",
+    href: "https://github.com/hhjxx/envshare",
     external: true,
   },
 ] satisfies { name: string; href: string; external?: boolean }[];
